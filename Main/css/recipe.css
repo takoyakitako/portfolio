@@ -1,0 +1,68 @@
+/* index.css에 붙여놓기, 아니면 페이지에 하나씩 연결하면 됩니다,, */
+
+
+.myRecipe {
+    padding: 30px;
+    padding-top: 30px;
+  }
+  
+  .myRecipe h1 {
+    font-size: 30px;
+  }
+  
+  .myRecipe ul {
+    padding-top: 30px;
+  }
+  
+  .myRecipe ul li {
+    padding: 20px;
+    display: flex;
+  }
+  
+  .myRecipe ul li .myRecipi-list-item {
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  
+  .myRecipe ul li h2 {
+    font-size: 20px;
+  }
+  
+  .myRecipe ul li h2 :hover {
+    opacity: 0.5;
+  }
+  
+  .myRecipe ul li .recipeName:hover {
+    opacity: 0.5;
+  }
+  
+  .myRecipe ul li p {
+    color: #acacac;
+  }
+  
+  .myRecipe ul li img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .myRecipe ul li a:hover {
+    background-color: #acacac;
+    opacity: 0.5;
+  }
+  
+  .myRecipe ul .recipeComment {
+    color: #000;
+  }
+  
+  footer {
+    text-align: center;
+    height: 40px;
+  }
+  
+  footer p {
+    text-align: center;
+    color: #acacac;
+    font-size: 15px;
+    line-height: 40px;
+  }
+  
